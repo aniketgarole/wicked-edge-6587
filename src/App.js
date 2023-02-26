@@ -1,10 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './components/Navbar';
+
+
+
+
+
+import Allroutes from './components/Allroutes';
+import Carcard from './components/Carcard';
 
 function App() {
-  return (
-    <Navbar/>
+  return (<>
+   <Allroutes/>
+   {/* <Carcard/> */}
+  </>
   );
 }
 
